@@ -64,7 +64,7 @@ function Movie() {
     if(movieVideo !== undefined){
         movieImageElement = <div className = "video-wrapper">
                 <iframe
-                    src={`https://www.youtube.com/embed/${movieVideo.key}`}
+                    src={`https://www.youtube.com/embed/${movieVideo.key}?autoplay=1&controls=0&showinfo=0&modestbranding=1&autohide=1&rel=0`}
                     className="embedded-video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -73,6 +73,7 @@ function Movie() {
                 />
             </div>
     }
+    
     if(movie)
     return (
         <div className='centered'>

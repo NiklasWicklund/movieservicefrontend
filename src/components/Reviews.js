@@ -18,7 +18,7 @@ function Reviews({movie}) {
     return (
         <div>
             <div className='section-title'>
-                <h2>Reviews({fetching ? "..." : reviews.length})</h2>
+                <h3>Reviews({fetching ? "..." : reviews.length})</h3>
             </div>
             <hr className='line-break'/>
             <div className='reviews'>

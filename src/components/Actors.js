@@ -32,7 +32,7 @@ function Actors({movie}) {
     return (
         <div>
             <div className='section-title'>
-                <h2>Actors</h2>
+                <h3>Actors</h3>
             </div>
             <hr className='line-break'/>
             <div className='actors'>

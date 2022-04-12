@@ -3,8 +3,8 @@ function Description({movie}) {
   return (
     <div>
         <div className='section-title'>
-            <h2>Description</h2>
-            <h2>Rating: {movie.vote_average}</h2>
+            <h3>Description</h3>
+            <h3>Rating: {movie.vote_average}</h3>
         </div>
         <hr className='line-break'/>
         <span className='movie-overview'>

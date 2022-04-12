@@ -7,37 +7,42 @@
     height:fit-content;
 }
 .section-title {
+    margin-top: 3%;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    
 }
-
+.section-title h3{
+    font-size: 1.1rem;
+}
 .line-break{
     border: 2px solid #AD7D62;
     border-radius: 4px;
 }
 
 .centered {
-    margin: 5px 130px;
+    margin: 2% 2%;
 }
 
 .cursor-pointer {
     cursor: pointer;
 }
 .small-text {
-    font-size: 0.75em;
+    font-size: 0.75rem;
 }
 .normal-text {
-    font-size: 1em;
+    font-size: 1rem;
 }
 .large-text {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 /*CSS for Movie Page*/
 .movie-img-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 6%;
 }
 .movie-title-img {
     position: relative;
@@ -69,6 +74,12 @@
     opacity: 1;
     transition: opacity 0.5s;
 }
+.movie-title-overlay h3 {
+    font-size: 1.8 rem;
+}
+.movie-title-overlay h3 {
+    font-size: 1.4 rem;
+}
 .movie-title-overlay:hover{
     opacity: 0;
     display: none;
@@ -87,19 +98,19 @@
 
 
 .movie-overview {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .genres {
-    margin: 20px 0;
+    margin: 2% 0;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
 }
 .genre {
-    margin: 5px 10px 0 0;
-    padding: 5px 15px;
-    font-size: 1.2em;
+    margin: 5px 5px 0 0;
+    padding: 3px 6px;
+    font-size: 1.2rem;
     background-color: #385154;
     border-radius: 13px;
     width: fit-content;
@@ -111,11 +122,11 @@
 }
 
 .actors {
-    margin: 20px 0;
+    margin: 3% 0;
     display: grid;
     grid-template-columns: repeat(auto-fit,92px);
     grid-template-rows: auto;
-    gap: 10px 10px;
+    gap: 10px 8px;
 }
 .actor {
     text-align: center;
@@ -191,12 +202,10 @@
     height: 0;
     overflow: hidden;
     padding: 0 20px 0;
-    transition: height 0.5s;
 }
 .filter-container-open {
     padding: 0 20px 30px;
-    height: 250px;
-    transition: height 0.5s;
+    height: fit-content;
 }
 
 /*Movie grid system  */
@@ -218,7 +227,7 @@
     display: grid;
     grid-template-columns: repeat( auto-fill,minmax(154px,max-content));
     grid-template-rows: auto;
-    gap: 30px 30px;
+    gap: 10px 8px;
     overflow: hidden;
     margin-bottom: 30px;
 }

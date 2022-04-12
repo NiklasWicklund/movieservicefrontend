@@ -11,9 +11,6 @@ function Discover() {
     const [maxPage,setMaxPage] = useState()
     const [fetching,setFetching] = useState(true)
     const [settings,setSettings] = useState({genres: [],rating: [0,10],page: 1,query: ''})
-
-    const [searchString,setSearchString] = useState('')
-    const [searching,setSearching] = useState(false)
     
     const navigate = useNavigate()
     
@@ -83,7 +80,7 @@ function Discover() {
     return (
         <div>
             <Header handleSearch={handleSearch}/>
-            <div className='movie-container'>
+            <div className='centered'>
                 <Filter handleApplyFilter={handleApplyFilter}/>
                 <div className="movie-section ">
                     <hr className='line-break'/>
