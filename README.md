@@ -1,1 +1,2 @@
-# MovieDB Frontend made for MicroAA Labs
+# MovieDB Frontend
+
